@@ -24,6 +24,14 @@ class CurrencySeeder extends Seeder
             [ 'id' => 3, 'code' => 'GBP', 'name' => 'British Pound' ],
             [ 'id' => 4, 'code' => 'JPY', 'name' => 'Japanese Yen' ],
             [ 'id' => 5, 'code' => 'AUD', 'name' => 'Australian Dollar' ],
+            [ 'id' => 6, 'code' => 'CAD', 'name' => 'Canadian Dollar' ],
+            [ 'id' => 7, 'code' => 'HKD', 'name' => 'Hong Kong Dollar' ],
+            [ 'id' => 8, 'code' => 'PHP', 'name' => 'Philippine Peso' ],
+            [ 'id' => 9, 'code' => 'HUF', 'name' => 'Hungarian Forint' ],
+            [ 'id' => 10, 'code' => 'CNY', 'name' => 'Chinese Yuan Renminbi' ],
+            [ 'id' => 11, 'code' => 'MXN', 'name' => 'Mexican Peso' ],
+            [ 'id' => 12, 'code' => 'MYR', 'name' => 'Malaysian Ringgit' ],
+            [ 'id' => 13, 'code' => 'KRW', 'name' => 'South Korean Won' ],
         ];
 
         foreach ($currencies as $currency) {
