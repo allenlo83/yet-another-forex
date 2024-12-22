@@ -26,7 +26,7 @@
                             <div class="flex items-center justify-center text-2xl font-normal my-2">{{ item.code }}</div>
                         </template>
                         <template #content>
-                            <div class="flex items-center justify-center text-3xl font-bold">{{ item.rate }}</div>
+                            <div class="flex items-center justify-center text-3xl font-bold">{{ Number(item.rate).toFixed(2) }}</div>
                         </template>
                     </Card>
                 </div>
